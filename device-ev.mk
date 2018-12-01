@@ -35,6 +35,10 @@ PRODUCT_PACKAGES += \
     android.hardware.confirmationui@1.0.vendor:64 \
     libteeui_hal_support.vendor:64
 
+# EUICC
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
+
 # HIDL
 PRODUCT_PACKAGES += \
     libhwbinder.vendor
