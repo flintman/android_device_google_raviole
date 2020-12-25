@@ -59,6 +59,10 @@ DEVICE_MANIFEST_FILE += \
 # Touch
 include hardware/google/pixel/touch/device.mk
 
+# Parts
+PRODUCT_PACKAGES += \
+    GoogleParts
+
 # Tinycompress
 PRODUCT_PACKAGES += \
     libtinycompress
