@@ -1,3 +1,5 @@
+# Build necessary packages for vendor
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
@@ -48,6 +50,9 @@ PRODUCT_PACKAGES += \
     nos_app_identity:64 \
     nos_app_keymaster:64 \
     nos_app_weaver:64
+
+# Touch
+include hardware/google/pixel/touch/device.mk
 
 # Tinycompress
 PRODUCT_PACKAGES += \
