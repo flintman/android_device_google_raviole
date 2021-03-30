@@ -71,6 +71,9 @@ include hardware/google/pixel/touch/device.mk
 PRODUCT_PACKAGES += \
     GoogleParts
 
+# PowerShare
+include hardware/google/pixel/powershare/device.mk
+
 # Tinycompress
 PRODUCT_PACKAGES += \
     libtinycompress
