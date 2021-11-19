@@ -1,4 +1,6 @@
-# Build necessary packages for vendor
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-ev
 
 # Bluetooth
 PRODUCT_PACKAGES += \
