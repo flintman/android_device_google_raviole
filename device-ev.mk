@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
     nos_app_keymaster:64 \
     nos_app_weaver:64
 
+DEVICE_MANIFEST_FILE += \
+    device/google/raviole/manifest_radio.xml
+
 # Touch
 include hardware/google/pixel/touch/device.mk
 
