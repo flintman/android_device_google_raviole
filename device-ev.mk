@@ -70,3 +70,8 @@ PRODUCT_PACKAGES += \
 
 # Properties
 TARGET_VENDOR_PROP := device/google/raviole/vendor.prop
+
+# VNDK
+PRODUCT_PACKAGES += \
+    evervolv_compatibility_matrix.xml \
+    lineage_compatibility_matrix.xml
