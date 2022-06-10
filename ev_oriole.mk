@@ -25,3 +25,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/oriole/oriole:12/SQ3A.220705.003/8671607:user/release-keys
 
 $(call inherit-product, vendor/google/oriole/oriole-vendor.mk)
+-include device/google/raviole//BoardConfigEv.mk
