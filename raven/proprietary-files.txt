@@ -1,5 +1,6 @@
 # All blobs are extracted from Google factory images for each new ASB
 # product partition
+
 # AiAi
 product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
 product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk;PRESIGNED
