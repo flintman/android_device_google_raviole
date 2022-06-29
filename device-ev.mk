@@ -95,6 +95,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.2.vendor:64 \
     android.hardware.wifi@1.3.vendor:64 \
     android.hardware.wifi@1.4.vendor:64 \
+    android.hardware.wifi@1.5.vendor:64 \
     android.hardware.neuralnetworks@1.3.vendor:64 \
     libaudioroutev2.vendor \
     libexynosutils \
