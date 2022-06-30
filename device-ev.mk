@@ -2,6 +2,10 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-ev
 
+# Apex
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.apex.updatable=true
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
