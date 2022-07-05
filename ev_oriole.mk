@@ -11,6 +11,7 @@ $(call inherit-product, vendor/ev/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_oriole_64.mk)
 $(call inherit-product, device/google/raviole/device-ev.mk)
+$(call inherit-product, device/google/gs101/ev_common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := ev_oriole
