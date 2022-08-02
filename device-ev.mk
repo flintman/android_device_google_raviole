@@ -8,11 +8,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0.vendor \
-    hardware.google.bluetooth.bt_channel_avoidance@1.0.vendor \
-    hardware.google.bluetooth.ccc@1.0.vendor \
-    hardware.google.bluetooth.sar@1.0.vendor \
-    hardware.google.bluetooth.sar@1.1.vendor
+    android.hardware.bluetooth@1.0.vendor:64 \
+    android.hardware.bluetooth@1.1.vendor:64 \
+    hardware.google.bluetooth.bt_channel_avoidance@1.0.vendor:64 \
+    hardware.google.bluetooth.ccc@1.0.vendor:64 \
+    hardware.google.bluetooth.sar@1.0.vendor:64 \
+    hardware.google.bluetooth.sar@1.1.vendor:64
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -22,8 +23,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Codec2
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.0.vendor \
-    libavservices_minijail.vendor \
-    libavservices_minijail_vendor:32 \
+    libavservices_minijail.vendor:32 \
+    libavservices_minijail_vendor:64 \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor \
     libmedia_ecoservice.vendor \
@@ -41,6 +42,7 @@ PRODUCT_COPY_FILES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    libhidltransport.vendor \
     libhwbinder.vendor
 
 # Identity credential
@@ -84,17 +86,15 @@ PRODUCT_PACKAGES += \
 
 # Misc interfaces
 PRODUCT_PACKAGES += \
-    android.hardware.authsecret@1.0.vendor \
+    android.hardware.authsecret@1.0.vendor:64 \
     android.hardware.biometrics.common-V1-ndk_platform.vendor:64 \
     android.hardware.biometrics.fingerprint-V1-ndk_platform.vendor:64 \
-    android.hardware.bluetooth@1.0.vendor \
-    android.hardware.bluetooth@1.1.vendor \
     android.hardware.input.classifier@1.0.vendor:64 \
     android.hardware.input.common@1.0.vendor:64 \
-    android.hardware.keymaster@3.0.vendor \
-    android.hardware.keymaster@4.0.vendor \
-    android.hardware.keymaster@4.1.vendor \
-    android.hardware.neuralnetworks-V1-ndk_platform.vendor \
+    android.hardware.keymaster@3.0.vendor:64 \
+    android.hardware.keymaster@4.0.vendor:64 \
+    android.hardware.keymaster@4.1.vendor:64 \
+    android.hardware.neuralnetworks-V1-ndk_platform.vendor:64 \
     android.hardware.oemlock@1.0.vendor:64 \
     android.hardware.power@1.0.vendor:64 \
     android.hardware.power@1.1.vendor:64 \
@@ -125,16 +125,14 @@ PRODUCT_PACKAGES += \
     libaudioroutev2.vendor \
     libexynosutils \
     libexynosv4l2 \
-    libhidltransport.vendor \
     libsfplugin_ccodec_utils.vendor \
-    libavservices_minijail_vendor \
-    libcppbor.vendor \
-    libkeymaster4support.vendor \
-    libnetfilter_conntrack \
-    libnfnetlink \
+    libcppbor.vendor:64 \
+    libkeymaster4support.vendor:64 \
+    libnetfilter_conntrack:64 \
+    libnfnetlink:64 \
     libsensorndkbridge \
-    libtrusty_metrics \
-    pixelpowerstats_provider_aidl_interface-cpp.vendor \
+    libtrusty_metrics:64 \
+    pixelpowerstats_provider_aidl_interface-cpp.vendor:64 \
     sensors.dynamic_sensor_hal
 
 # Libraries required for vendor
